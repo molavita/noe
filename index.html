@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Para Noe 💙</title>
-    <link rel="shortcut icon" href="https://img.icons8.com/emoji/48/love-letter-emoji.png">
+    <link rel="shortcut icon" href="https://img.icons8.com/emoji/48/blue-heart.png">
     <style>
         /* Fondo y estilos generales */
         body {
@@ -14,7 +14,7 @@
             height: 100vh;
             margin: 0;
             font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #f39c12, #e74c3c);
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
             color: #fff;
             overflow: hidden;
         }
@@ -25,7 +25,7 @@
             max-width: 600px;
             background: rgba(255, 255, 255, 0.1);
             border-radius: 15px;
-            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
             backdrop-filter: blur(10px);
         }
 
@@ -33,14 +33,14 @@
             font-size: 2.5em;
             margin: 0;
             font-weight: bold;
-            color: #f7d794;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+            color: #a7c7e7;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
         }
 
         p {
             font-size: 1.2em;
             line-height: 1.5;
-            color: #ffecdb;
+            color: #d0e6ff;
         }
 
         /* Estilo para el botón */
@@ -50,7 +50,7 @@
             padding: 10px 20px;
             font-size: 1.1em;
             color: #fff;
-            background: #e74c3c;
+            background: #007bff;
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -59,7 +59,7 @@
         }
 
         .button:hover {
-            background: #d62c1a;
+            background: #0056b3;
         }
 
         /* Corazones animados */
@@ -67,7 +67,7 @@
             position: absolute;
             width: 20px;
             height: 20px;
-            background: #ff6b6b;
+            background: #5dade2;
             transform: rotate(45deg);
             animation: float 6s infinite ease-in-out;
             opacity: 0.8;
@@ -78,115 +78,7 @@
             position: absolute;
             width: 20px;
             height: 20px;
-            background: #ff6b6b;
-            border-radius: 50%;
-        }
-
-        .heart:before {
-            top: -10px;
-            left: 0;
-        }
-
-        .heart:after {
-            left: 10px;
-            top: 0;
-        }
-
-        /* Animación para los corazones */
-        @keyframes float {
-            0% {
-                transform: translateY(0) rotate(45deg);
-                opacity: 0.8;
-            }
-            50% {
-                transform: translateY(-50px) rotate(45deg);
-                opacity: 1;
-            }
-            100% {
-                transform: translateY(-100px) rotate(45deg);
-                opacity: 0;
-            }
-        }
-
-        /* Posiciones aleatorias para los corazones */
-        .heart1 { left: 20%; animation-delay: 0s; }
-        .heart2 { left: 40%; animation-delay: 2s; }
-        .heart3 { left: 60%; animation-delay: 4s; }
-        .heart4 { left: 80%; animation-delay: 6s; }
-       
-        @media (max-width: 600px) 
-         body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #f39c12, #e74c3c);
-            color: #fff;
-            overflow: hidden;
-        }
-
-        .container {
-            text-align: center;
-            padding: 20px;
-            max-width: 600px;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 15px;
-            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
-            backdrop-filter: blur(10px);
-        }
-
-        h1 {
-            font-size: 2.5em;
-            margin: 0;
-            font-weight: bold;
-            color: #f7d794;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-        }
-
-        p {
-            font-size: 1.2em;
-            line-height: 1.5;
-            color: #ffecdb;
-        }
-
-        /* Estilo para el botón */
-        .button {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            font-size: 1.1em;
-            color: #fff;
-            background: #e74c3c;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background 0.3s ease;
-            text-decoration: none;
-        }
-
-        .button:hover {
-            background: #d62c1a;
-        }
-
-        /* Corazones animados */
-        .heart {
-            position: absolute;
-            width: 20px;
-            height: 20px;
-            background: #ff6b6b;
-            transform: rotate(45deg);
-            animation: float 6s infinite ease-in-out;
-            opacity: 0.8;
-        }
-
-        .heart:before, .heart:after {
-            content: "";
-            position: absolute;
-            width: 20px;
-            height: 20px;
-            background: #ff6b6b;
+            background: #5dade2;
             border-radius: 50%;
         }
 
@@ -222,13 +114,24 @@
         .heart3 { left: 60%; animation-delay: 4s; }
         .heart4 { left: 80%; animation-delay: 6s; }
 
+        @media (max-width: 600px) {
+            body {
+                background: linear-gradient(135deg, #1e3c72, #2a5298);
+            }
+            h1 {
+                font-size: 2em;
+            }
+            p {
+                font-size: 1em;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Para Noe 💙</h1>
         <p>Se que te gustan los regalos y como a mi me encanta ser original he creado esto para ti :)</p>
-        <p>Es un detalle que vas a poder llevar contigo en cualquier momento que te apetezca solo con buscar este enlace de la pagina desde cualquier parte del mundo podras ver lo mucho que te quiero,te quise y te querre.</p>
+        <p>Es un detalle que vas a poder llevar contigo en cualquier momento que te apetezca solo con buscar este enlace de la pagina desde cualquier parte del mundo podrás ver lo mucho que te quiero, te quise y te querré.</p>
         <a href="noesita.html" class="button">Siguiente</a>
     </div>
 
@@ -242,5 +145,5 @@
 
 
 
-
     
+
